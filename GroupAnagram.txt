@@ -15,15 +15,16 @@ class Solution {
         }
         List<List<String>> list =new ArrayList<>();
 
-for (HashMap.Entry<String, List<String>> mp:map.entrySet()) 
-{
-    list.add(mp.getValue());
-}
+//for (HashMap.Entry<String, List<String>> mp:map.entrySet()) 
+//{
+ //   list.add(mp.getValue());
+//}
 
 //System.out.println();
 
 
       //  System.out.println(map);
-        return list;
+        //return list;
+        return new ArrayList(map.values());
     }
 }
